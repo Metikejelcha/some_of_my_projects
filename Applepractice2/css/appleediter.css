@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    text-decoration: none;
+    background-color: rgb(54, 44, 44);
+    color: white;
+    font-weight: 200;
+    font-size: 10px;
+    position: fixed;
+    width: 100%;
+
+
+}
+.section111{
+
+    align-items: center;
+    justify-content: center;
+}
+.newbuttons{
+    text-decoration: none;
+    display: none;
+
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.newbutton button{
+    text-decoration: none;
+}
+.outerclass{
+    width: 100%;
+}
+
+
+img{
+    width: 100%;
+    max-height: 15px;
+}
+
+
+
+
+
+.header1 ul{
+    display: flex ; 
+    justify-content: space-between; 
+ 
+
+}
+.innerclass{
+   width: 980px;
+   padding: 0 10px;
+    margin: 0 auto;
+}
+.innerclass .innerinnerclass ul li a {
+    text-decoration: none;
+    color: white;
+    
+
+}
+.innerclass .innerinnerclass ul li{
+   display: inline-block;
+   padding:14px 0 8px;
+    height: 15;
+    opacity:0.8;
+}
+
+
+.innerclass .innerinnerclass ul li:hover{
+    opacity: 1;
+
+}
+
+.footerwrapper .allinone{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+
+}
+footer{
+    width: 980px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+
+
+}.footer .upperclass{
+    padding: 10px 40px;
+   
+    font-size: medium;
+}
+.footerwrapper .upperclass{
+    font-size: 8px;
+    border: 1px solid rgb(52, 43, 43);
+    padding-bottom: 15px;
+    padding-top: 10px;
+    
+}
+
+.footerwrapper{
+    background-color: rgb(249, 248, 246);
+    color: rgb(64, 51, 51);
+    font-size: medium;
+} 
+.upperclass a{
+    text-decoration: none;
+    color: black;
+}
+.upperclass a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.allinone ul{
+    list-style:none
+    
+
+}
+.allinone ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.allinone a:hover{
+    color: black;
+    text-decoration: underline;
+}
+/*section 1 with the photo of ipad*/
+.ipad{
+    height: 500px;
+}
+.ipad{
+    text-align: center;
+    height: 300px;
+    background-color: black;
+    width: 100%;
+}
+.ipadphoto img{
+   
+    width: 100% ;
+    margin: auto;
+    max-height: 700px;
+}
+.ipad a{
+    
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.ipad a h1{
+    font-size: 50px;
+    padding-top: 100px ;
+    margin: auto;
+
+}
+.ipad a h2{
+   
+    padding: 5px 0;
+    margin: auto;
+}
+/* second section with a photo to be link*/
+.section22 img{
+    width: 100%;
+    max-height: 600px;
+    margin: auto;
+
+}
+/*photo with a iiphone*/
+.innerphoto img{
+    width: 100%;
+    max-height: 600px;
+}
+.innersection33{
+    width: 100%;
+   
+    background-color: black;
+
+
+}
+.innersection33 h1,h2{
+    color:whitesmoke;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+
+}
+.maininner{
+     max-height: 1000px;
+
+}
+.innersection33 h1{
+   
+    padding-top: 50px;
+
+}
+.innersection33 h2{
+   
+    padding-top: 20px;
+
+}
+.section33{
+    height: 1000px;
+}
+.manbackground{
+    width: 100%;
+    background-image:url("../images/an\ tobe\ edited.jpg.png" );
+    background-size:cover;
+    background-position:center;
+}
+.displayflex{
+    display: flex;
+
+}
+.nextto img{
+    
+    width: 100%;
+    max-height: 400px;
+}
+.maninside{
+    width: 100%;
+}
+.nectnect{
+   
+    background-color: rgb(243, 243, 243);
+   
+    color: black;
+    padding-top: 100px;
+    padding-left: 250px;
+    font-size: 30px;
+}
+
+.madninside img{
+    width: 50px;
+    max-height: 50px;
+
+    padding-top:360px ;
+    padding-left: 150px;
+    display: inline-block;
+
+}
+.madninside h1 ,h2{
+    text-align: center;
+}
+.madninside h1{
+    text-decoration: double;
+    display: inline-block;
+    margin: auto;
+   
+    
+    font-size: 30px;
+
+}
+.madninside h2{
+    color: black;
+    padding-top:10px ;
+    
+    font-size: medium;
+    margin: auto;
+
+}
+
+/*the final section for the two photos*/
+
+.classflex{
+    display: flex;
+}
+.section55 h1{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
+    margin: auto;
+
+
+}
+.section55 h2{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.section55 h3{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.section55{
+    width: 600px;
+    
+    height: 200px;
+    background-color: rgb(246, 246, 246);
+}
+.imageinserter img{
+    width: 550px;
+    max-height:600px;
+     
+}
+.sectiontobeflex2{
+    width: 100% ;
+
+}
+.sectiontobeflex1{
+    width: 100%;
+} 
+.watch h1{
+    color: rgb(248, 246, 244);
+    padding-top: 25px;
+    text-align: center;
+    font-size: 35px;
+}
+.watch{
+   
+    width: 600px;
+    height: 200px;
+     background-color: black;
+} 
+.watchphoto img{
+    width: 600px;
+    max-height: 600px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.sectiontobeflex1 ,
+.sectiontobeflex2{
+    width: 50%;
+}
+.sectiontobeflex1 img{
+    width: 100%;
+}
+.sectiontobeflex2 img{
+    width: 100%;
+}
+.watch{
+    width: 100%;
+}
+.section55{
+    width: 100%;
+    text-align: center;
+}
+.newbuttons ul li a{
+    text-decoration: none;
+    font-size: 18px;
+   height: 60px;
+   line-height: 30px;
+   
+   
+   
+
+}
+.newbuttons ul{
+    text-align: center;
+    display: flex;
+     
+    }
+
+.newbutton{
+    background-color: blue;
+    border-radius: 10px;
+    border:5px solid blue;
+    color: white;
+    
+}
+.newbutton2{
+    border-radius: 10px;
+    border:5px solid blue;
+    color:blue;
+
+    
+}
+.button:hover{
+    background-color: rgb(8, 8, 71);
+
+}
+.button:hover{
+    background-color: blue;
+    color: white;
+}
+.newbuttons{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+.collab{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+    
+
+.outermiddle{
+    width: 100%;
+}
+.nextto ,
+.manbackground{
+    width: 50%;
+}
+.nextto{
+    width: 100%;
+}
+.manbackground{
+    width: 100%;
+}
